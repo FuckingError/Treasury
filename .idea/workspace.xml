@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="" />
+    <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="创建项目">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\CodePlay\Treasury\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -19,13 +33,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1hGbge7MHo95ml1EDK9RyQNZOx3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -55,17 +72,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599640488313</updated>
+      <workItem from="1599640491574" duration="1670000" />
+      <workItem from="1599701115428" duration="640000" />
     </task>
+    <task id="LOCAL-00001" summary="创建项目">
+      <created>1599640710914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599640710914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建项目" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="-952" key="CommitChangelistDialog2" timestamp="1599640551117">
+    <state x="485" y="-952" key="CommitChangelistDialog2" timestamp="1599640723518">
       <screen x="-4" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599640551117" />
-    <state x="548" y="-808" key="Vcs.Push.Dialog.v2" timestamp="1599640646421">
+    <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599640723518" />
+    <state x="548" y="-808" key="Vcs.Push.Dialog.v2" timestamp="1599640750509">
       <screen x="-4" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="548" y="-808" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599640646421" />
+    <state x="548" y="-808" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599640750509" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599702903951">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599702903951" />
+    <state x="330" y="-846" key="new project wizard" timestamp="1599706203838">
+      <screen x="-4" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="330" y="-846" key="new project wizard/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706203838" />
   </component>
 </project>
