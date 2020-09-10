@@ -3,6 +3,7 @@ package Introduction.Demo04;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 /**
  * @author Qing
@@ -25,5 +26,24 @@ public class Demo04 {
         list.forEach(word -> newList.add(word.toUpperCase()));
         //2.2打印
         newList.forEach(word -> System.out.println(word));
+
+        /**
+         * Todo-comment Lambda-04: Lambda表达式的第二种写法：省略参数 采用 `类/对象 :: 方法名`
+         *
+         *    第二种：map的参数是一个函数式接口 Function
+         *            Function接口内部有一个抽象方法accept
+         *                这里`String::toUpperCase` 即：对该函数式接口中的accept方法的具体实现
+         *
+         *                  //即：第二种...的原始写法...
+         *                  list.stream().map(new Function<String, Object>() {
+         *                      @Override
+         *                      public Object apply(String s) {
+         *                          return s.toUpperCase();
+         *                      }
+         *                  });
+         */
+        //3.采用Stream 流
+        list.stream().map(item -> item.toUpperCase()).forEach(item -> System.out.println(item));
+        list.stream().map(String::toUpperCase).forEach(item -> System.out.println(item));
     }
 }
