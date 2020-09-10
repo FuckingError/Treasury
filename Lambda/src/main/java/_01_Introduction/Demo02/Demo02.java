@@ -1,4 +1,4 @@
-package Introduction.Demo02;
+package _01_Introduction.Demo02;
 
 /**
  * 函数式接口实践
