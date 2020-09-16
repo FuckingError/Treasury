@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_01_Introduction/Demo03/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_01_Introduction/Demo03/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionDoc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +63,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.Demo03">
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_Introduction.Demo01.Demo01" />
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_01_Introduction.Demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FunctionTest2">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.Demo01" />
       <module name="Lambda" />
@@ -115,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_Introduction.Demo04.Demo04" />
+    <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.FunctionTest" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_Introduction.Demo04.*" />
+          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.FunctionTest2" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_FunctionDoc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionTest2" />
+        <item itemvalue="Application.FunctionTest" />
         <item itemvalue="Application.Demo03" />
-        <item itemvalue="Application.Demo02 (1)" />
-        <item itemvalue="Application.Demo01 (1)" />
-        <item itemvalue="Application.Demo04" />
-        <item itemvalue="Application.Demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +164,8 @@
       <workItem from="1599720987558" duration="9863000" />
       <workItem from="1600136862179" duration="467000" />
       <workItem from="1600138624267" duration="14000" />
-      <workItem from="1600222609745" duration="3010000" />
+      <workItem from="1600222609745" duration="8727000" />
+      <workItem from="1600243751169" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1599640710914</created>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600224096374</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法">
+      <created>1600225636342</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600225636342</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +402,8 @@
     <MESSAGE value="双冒号" />
     <MESSAGE value="使用Lambda表达式 进行 Collections.sort" />
     <MESSAGE value="lambda表达式定义和作用" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda表达式定义和作用" />
+    <MESSAGE value="自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="198" key="#Project_Structure" timestamp="1599723900033">
@@ -415,39 +423,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599728250814" />
-    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1600224095527">
+    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1600225635644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706280019" />
-    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600224095527" />
+    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600225635644" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1599727578327">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599727578327" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1600225566057">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1600239521717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633205" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600225566057" />
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1600225566057">
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521717" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745799" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1600239521717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600225566057" />
-    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1600225566056">
+    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521717" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745799" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1600239521717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600225566056" />
-    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1600225566057">
+    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521716" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745798" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1600239521717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600225566057" />
-    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521717" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745799" />
     <state x="461" y="181" key="SettingsEditor" timestamp="1599730085316">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -480,5 +488,19 @@
     </state>
     <state x="619" y="-845" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708718596" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599726066455" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest2.java</url>
+          <line>15</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
