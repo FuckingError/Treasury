@@ -16,17 +16,33 @@ public class Demo03 {
          *             > 即：对于Lambda表达式来说 `函数式接口`中的`抽象方法名`无意义
          *                 > 但 对于 将 **`函数式接口`作为`方法参数`**的`调用方法`来说 **肯定是有意义的**
          */
-        MyInterface1 interface1 = () -> {};
+        MyInterface1<Integer,Integer> interface1 = (a) -> a+1;
         System.out.println(interface1.getClass().getInterfaces()[0]);
+        System.out.println("测试函数式接口的使用："+interface1.Test1(1));
+
+
 
         MyInterface2 interface2 = () -> {};
         System.out.println(interface2.getClass().getInterfaces()[0]);
+
+        System.out.println("测试通过函数式接口作为参数的方法："+compute(1,a->a+1));
+    }
+
+    /**
+     * 自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法
+     * @param a
+     * @param function
+     * @return
+     */
+    public static int compute(int a,MyInterface1<Integer,Integer> function){
+        return function.Test1(a);
     }
 }
 
+
 @FunctionalInterface
-interface MyInterface1{
-    void Test1();
+interface MyInterface1<T,R>{
+    R Test1(T t);
 }
 
 @FunctionalInterface
