@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="创建项目">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/pom.xml" afterDir="false" />
+    <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="创建FunctionDoc 阅读Function接口的文档">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/Lambda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionDoc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generics/Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generics/Generics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/Demo02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,24 +43,108 @@
         <option name="userSettingsFile" value="D:\software\code\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1hGbge7MHo95ml1EDK9RyQNZOx3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1475" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+  </component>
+  <component name="RunManager" selected="Application.Demo02 (1)">
+    <configuration name="Demo01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.Demo01" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_Introduction.Demo01.Demo01" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_Introduction.Demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.Demo02" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_Introduction.Demo03.Demo03" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_Introduction.Demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_Introduction.Demo04.Demo04" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_Introduction.Demo04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo02 (1)" />
+        <item itemvalue="Application.Demo01 (1)" />
+        <item itemvalue="Application.Demo04" />
+        <item itemvalue="Application.Demo03" />
+        <item itemvalue="Application.Demo01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,7 +169,11 @@
       <option name="presentableId" value="Default" />
       <updated>1599640488313</updated>
       <workItem from="1599640491574" duration="1670000" />
-      <workItem from="1599701115428" duration="640000" />
+      <workItem from="1599701115428" duration="3125000" />
+      <workItem from="1599720987558" duration="9863000" />
+      <workItem from="1600136862179" duration="467000" />
+      <workItem from="1600138624267" duration="14000" />
+      <workItem from="1600222609745" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1599640710914</created>
@@ -82,32 +182,303 @@
       <option name="project" value="LOCAL" />
       <updated>1599640710914</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加Lambda模块">
+      <created>1599706255893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599706255893</updated>
+    </task>
+    <task id="LOCAL-00003" summary="创建函数式接口的两种方式 遍历集合(一共三种)&#10;1.Lambda表达式&#10;2.方法引用 method reference">
+      <created>1599721843075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599721843075</updated>
+    </task>
+    <task id="LOCAL-00004" summary="自定义函数式接口&#10;- 函数式接口只能有一个抽象方法&#10;- 直接采用Lambda表达式 实例化 函数式接口">
+      <created>1599721972809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599721972809</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- 函数式接口中的方法名对于Lambda表达式来说 无意义&#10;- 但对于 将 函数式接口作为参数的调用方法来说 有意义">
+      <created>1599723038736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599723038736</updated>
+    </task>
+    <task id="LOCAL-00006" summary="两个Lambda表达式的使用例子">
+      <created>1599726002827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599726002827</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lambda表达式 采用 :: 方式 省略 参数">
+      <created>1599727115961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599727115961</updated>
+    </task>
+    <task id="LOCAL-00008" summary="stream的map方法">
+      <created>1599727414381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599727414381</updated>
+    </task>
+    <task id="LOCAL-00009" summary="放入包中">
+      <created>1599727620063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599727620063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改包名 添加序号">
+      <created>1599728059215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599728059215</updated>
+    </task>
+    <task id="LOCAL-00011" summary="双冒号">
+      <created>1599728906240</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599728906240</updated>
+    </task>
+    <task id="LOCAL-00012" summary="使用Lambda表达式 进行 Collections.sort">
+      <created>1599730551686</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599730551686</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/CodePlay/Treasury/Lambda" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/CodePlay/Treasury/Lambda/src/main/java/Introduction" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/CodePlay/Treasury/Lambda/src/main/java/Introduction/Demo04" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+        <option value="3" />
+        <option value="4" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="创建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建项目" />
+    <MESSAGE value="增加Lambda模块" />
+    <MESSAGE value="创建函数式接口的两种方式 遍历集合(一共三种)&#10;1.Lambda表达式&#10;2.方法引用 method reference" />
+    <MESSAGE value="自定义函数式接口&#10;- 函数式接口只能有一个抽象方法&#10;- 直接采用Lambda表达式 实例化 函数式接口" />
+    <MESSAGE value="- 函数式接口中的方法名对于Lambda表达式来说 无意义&#10;- 但对于 将 函数式接口作为参数的调用方法来说 有意义" />
+    <MESSAGE value="两个Lambda表达式的使用例子" />
+    <MESSAGE value="Lambda表达式 采用 :: 方式 省略 参数" />
+    <MESSAGE value="stream的map方法" />
+    <MESSAGE value="放入包中" />
+    <MESSAGE value="修改包名 添加序号" />
+    <MESSAGE value="双冒号" />
+    <MESSAGE value="使用Lambda表达式 进行 Collections.sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用Lambda表达式 进行 Collections.sort" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="-952" key="CommitChangelistDialog2" timestamp="1599640723518">
-      <screen x="-4" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599640723518" />
-    <state x="548" y="-808" key="Vcs.Push.Dialog.v2" timestamp="1599640750509">
-      <screen x="-4" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="548" y="-808" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599640750509" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599702903951">
+    <state x="552" y="198" key="#Project_Structure" timestamp="1599723900033">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599702903951" />
-    <state x="330" y="-846" key="new project wizard" timestamp="1599706203838">
-      <screen x="-4" y="-1080" width="1920" height="1080" />
+    <state x="548" y="-882" key="#Project_Structure/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706516616" />
+    <state x="552" y="198" key="#Project_Structure/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723900033" />
+    <state x="552" y="198" key="#TODO" timestamp="1600223693066">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#TODO/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600223693066" />
+    <state x="704" y="375" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1599723488004">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="704" y="375" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723488004" />
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1599728250814">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599728250814" />
+    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1599730550874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706280019" />
+    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599730550874" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1599727578327">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599727578327" />
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1599733287668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633205" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599730466987" />
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1599733287668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599730466987" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1599733287668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599730466987" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1599733287668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599730466987" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599733287668" />
+    <state x="461" y="181" key="SettingsEditor" timestamp="1599730085316">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="457" y="-899" key="SettingsEditor/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706510078" />
+    <state x="461" y="181" key="SettingsEditor/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599730085316" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1599727629132">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="548" y="-808" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706298329" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599727629132" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600138624842">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600138624842" />
+    <state x="567" y="245" width="786" height="590" key="find.popup" timestamp="1599723233184">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="567" y="245" width="786" height="590" key="find.popup/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723233184" />
+    <state x="658" y="330" key="git4idea.merge.GitPullDialog" timestamp="1599723051495">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="658" y="330" key="git4idea.merge.GitPullDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723051495" />
+    <state x="334" y="234" key="new project wizard" timestamp="1599723862252">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="330" y="-846" key="new project wizard/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706203838" />
+    <state x="334" y="234" key="new project wizard/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723862252" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599726066455">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="619" y="-845" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708718596" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599726066455" />
   </component>
 </project>

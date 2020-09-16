@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Lambda</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Demo</module>
+    </modules>
 
 
 </project>
