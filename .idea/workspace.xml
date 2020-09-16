@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/BiFunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionDoc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +61,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.FunctionTest2">
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.Demo01" />
+  <component name="RunManager" selected="Application.BiFunctionTest">
+    <configuration name="BiFunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.BiFunctionTest" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiFunctionTest" />
         <item itemvalue="Application.FunctionTest2" />
         <item itemvalue="Application.FunctionTest" />
         <item itemvalue="Application.Demo03" />
@@ -165,7 +164,7 @@
       <workItem from="1600136862179" duration="467000" />
       <workItem from="1600138624267" duration="14000" />
       <workItem from="1600222609745" duration="8727000" />
-      <workItem from="1600243751169" duration="372000" />
+      <workItem from="1600243751169" duration="1595000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1599640710914</created>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600225636342</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Function compose 和 andThen">
+      <created>1600244142239</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600244142239</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +409,8 @@
     <MESSAGE value="使用Lambda表达式 进行 Collections.sort" />
     <MESSAGE value="lambda表达式定义和作用" />
     <MESSAGE value="自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法" />
+    <MESSAGE value="Function compose 和 andThen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function compose 和 andThen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="198" key="#Project_Structure" timestamp="1599723900033">
@@ -423,11 +430,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599728250814" />
-    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1600225635644">
+    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1600244141517">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706280019" />
-    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600225635644" />
+    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600244141517" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1599727578327">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
