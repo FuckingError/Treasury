@@ -1,4 +1,4 @@
-package _02_FunctionDoc;
+package _02_Function;
 
 import java.util.function.BiFunction;
 

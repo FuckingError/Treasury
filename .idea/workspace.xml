@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92889626-8237-4012-a9e3-dbe119b23631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/BiFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_04_Predicate/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_06_Optional/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_06_Optional/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lambda/src/main/java/_06_Optional/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/BiFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_Function/BiFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_Function/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_Function/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_Function/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/main/java/_02_Function/FunctionTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +69,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.BiFunctionTest">
+  <component name="RunManager" selected="Application.Demo2">
     <configuration name="BiFunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.BiFunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="_02_Function.BiFunctionTest" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="PATTERN" value="_02_Function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.Demo02" />
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_Predicate.Demo1" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="PATTERN" value="_04_Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_Introduction.Demo03.Demo03" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_Optional.Demo2" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_Introduction.Demo03.*" />
+          <option name="PATTERN" value="_06_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.FunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="_02_Function.FunctionTest" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="PATTERN" value="_02_Function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +123,11 @@
       </method>
     </configuration>
     <configuration name="FunctionTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_FunctionDoc.FunctionTest2" />
+      <option name="MAIN_CLASS_NAME" value="_02_Function.FunctionTest2" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_FunctionDoc.*" />
+          <option name="PATTERN" value="_02_Function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.BiFunctionTest" />
         <item itemvalue="Application.FunctionTest2" />
         <item itemvalue="Application.FunctionTest" />
-        <item itemvalue="Application.Demo03" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +173,8 @@
       <workItem from="1600136862179" duration="467000" />
       <workItem from="1600138624267" duration="14000" />
       <workItem from="1600222609745" duration="8727000" />
-      <workItem from="1600243751169" duration="1595000" />
+      <workItem from="1600243751169" duration="4391000" />
+      <workItem from="1600306019720" duration="3101000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1599640710914</created>
@@ -271,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600244142239</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="BiFunction的使用">
+      <created>1600245386061</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600245386061</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +427,8 @@
     <MESSAGE value="lambda表达式定义和作用" />
     <MESSAGE value="自己实现了一下Function中的apply方法 并通过该接口写了一个compute方法" />
     <MESSAGE value="Function compose 和 andThen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function compose 和 andThen" />
+    <MESSAGE value="BiFunction的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="BiFunction的使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="198" key="#Project_Structure" timestamp="1599723900033">
@@ -426,42 +444,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="704" y="375" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723488004" />
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1599728250814">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1600310635379">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599728250814" />
-    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1600244141517">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600310635379" />
+    <state x="1083" y="183" key="CommitChangelistDialog2" timestamp="1600245385454">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="485" y="-952" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706280019" />
-    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600244141517" />
+    <state x="1083" y="183" key="CommitChangelistDialog2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600245385454" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1599727578327">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599727578327" />
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1600239521717">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1600311449314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633205" />
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521717" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600311449314" />
     <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745799" />
-    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1600239521717">
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1600311449313">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
-    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521717" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600311449313" />
     <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745799" />
-    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1600239521717">
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1600311449313">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
-    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521716" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600311449313" />
     <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745798" />
-    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1600239521717">
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1600311449314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708633204" />
-    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600239521717" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600311449314" />
     <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600236745799" />
     <state x="461" y="181" key="SettingsEditor" timestamp="1599730085316">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -473,10 +491,10 @@
     </state>
     <state x="548" y="-808" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706298329" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600224120656" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600138624842">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600306026098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600138624842" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600306026098" />
     <state x="567" y="245" width="786" height="590" key="find.popup" timestamp="1599723233184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -490,17 +508,17 @@
     </state>
     <state x="330" y="-846" key="new project wizard/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599706203838" />
     <state x="334" y="234" key="new project wizard/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599723862252" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599726066455">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600311576904">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="619" y="-845" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@-4.-1080.1920.1080" timestamp="1599708718596" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1599726066455" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-4.-1080.1920.1080@0.0.1920.1080" timestamp="1600311576904" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Lambda/src/main/java/_02_FunctionDoc/FunctionTest2.java</url>
+          <url>file://$PROJECT_DIR$/Lambda/src/main/java/_02_Function/FunctionTest2.java</url>
           <line>15</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
